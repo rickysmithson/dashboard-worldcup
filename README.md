@@ -2,42 +2,42 @@ Interactive Frontend Development Milestone Project
 
 Project Overview
 
+The purpose of this project was to create a dashboard which showed basic information of the fifa world cup. The project is aimed to give potential
+users  breif overview of stats which resolve around the fifa world cup.
+
 UX
 
-The Client required a website in order to gain an online presence and promote and showcase their work in an online enviroment.
+The Client required a basic dashboard to show information in a clear and well presented way.
+
 The requirement given by the client is as below;
 
-Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
+Build a data dashboard that visualizes a dataset of your choice
+Your data can be stored locally (e.g., in a js file) or sourced from an API
+Visualise your data using D3.js and dc.js
 
-This has been achieved by the project by creating a simple to read website, navigation has been simplied to allow for the best user experience on both PC's and portable devices.
+This has been achieved by the project by creating a simple to read dashboard, navigation is all based on a single page.
 
 User 1
 
-This User is looking to gain some information on the client
+This User is looking to gain some information on the project
 
 The project has been set in such a way that is would be easy for User 1 to browse the site and gain the information they require through clear and concise navigation elements
 
 User 2
 
-This user would like to listen to some of the clients previous work.
+This user would like to filter data based on counties
 
-This can be achieved very easily with a seperate page containing a selection of previous work of the clients, information is clear some the user is easily able to see what they are listening to.
-
-User 3
-
-This user is looking to get in contact with the client regarding possible future work.
-
-A contact us modal has been created and can be accessed on any page through the navigation bar this stands out and can easily be found by the user wanting to contact the client.
+This can be achieved very easily user the SVG's that have been created they can be used to filtetr to find who won and where.
 
 
 Features
 
+Additional Feature Planned
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+World Map added showing location of Hosts, Winner and Runner up.
 
-Additional features planned
 
-A booking page to allow users to book the client for events 
+A booking page to allow users to book the client for events.
 
 Technologies Used
 
@@ -47,16 +47,23 @@ The project uses JavaScript for Audio Playback.
 BootStrap
 This Project uses Bootstrap for layout templating.
 
+D3.js 
+This project uses D3.js for generating svg's.
+
 
 Testing
+
+All Graph Data has been tested an each graph filters based on the data selected.
 
 
 Deployment
 
 The Project has been deployed to GitHub Pages.
 
+https://github.com/rickysmithson/dashboard-worldcup
+
 
 Credits
 
-Content
+Data was created sourced from Kaggle
 
